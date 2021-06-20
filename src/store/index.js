@@ -17,7 +17,7 @@ export const store = {
     6: "Sábado"
   },
   isLoading: writable(false),
-  backgroundImg: writable('/assets/cold-600.jpeg'),
+  backgroundImg: writable('../assets/cold-600.jpeg'),
   api_key: '6b91d1f910dd1bf836e3b78709d4a229',
   url_base: "https://api.openweathermap.org/data/2.5/",
   coord: writable(),

@@ -24,7 +24,7 @@
 
   const icon = () => {
     var iconId = forecast.daily[dayOfWeek].weather[0].icon;
-    return `/assets/icons/${iconId}.png`;
+    return `./assets/icons/${iconId}.png`;
   };
 </script>
 

@@ -8,7 +8,7 @@
   // Methods and Computed values
   const icon = () => {
     var iconId = weather.weather[0].icon;
-    return `/assets/icons/${iconId}.png`;
+    return `./assets/icons/${iconId}.png`;
   };
 </script>
 

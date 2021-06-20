@@ -38,7 +38,7 @@
       else if (weatherId == 800) backgroundStr = "hot-800.jpeg";
       else if (801 <= weatherId && weatherId <= 899) backgroundStr = "clouds-800.jpg";
     }
-    store.backgroundImg.set(`./assets/${backgroundStr}`);
+    store.backgroundImg.set(`../assets/${backgroundStr}`);
   };
 </script>
 
